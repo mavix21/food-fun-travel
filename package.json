@@ -1,5 +1,5 @@
 {
-  "name": "astro-sass-template-no-scoped-styles",
+  "name": "astro-sass-template-scoped-styles",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,9 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.7.0"
+    "astro": "^4.15.8"
   },
   "devDependencies": {
-    "sass": "^1.76.0"
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "sass": "^1.79.3"
   }
 }

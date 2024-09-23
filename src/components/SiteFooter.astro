@@ -1,10 +1,16 @@
 ---
-
+import Logo from "./Logo.astro";
+import Navigation from "./Navigation.astro";
 ---
 
 <footer class="site-footer">
   <div class="container">
-    <p>Footer content here!</p>
+    <Logo />
+    <Navigation label="footer navigation">
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+      <li><a href="#">Page 4</a></li>
+    </Navigation>
   </div>
 </footer>
 

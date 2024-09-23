@@ -1,4 +1,4 @@
-# Astro + Sass Starter Template: NO scoped styles
+# Astro + Sass Starter Template: scoped styles
 
 This is the starter template for the final module of [Beyond CSS](https://beyondcss.dev).
 
